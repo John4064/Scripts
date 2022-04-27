@@ -1,6 +1,7 @@
 echo -n "Enter a num 1-5: "
 read myNum
-#We will print a pyramid of size
+#We will print a pyramid of size n
+
 
 for ((i=1; i <= myNum;i++))
 do

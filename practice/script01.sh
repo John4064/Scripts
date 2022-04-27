@@ -4,10 +4,10 @@ read myNum
 
 for ((i=1; i <= myNum;i++))
 do
-    for((j=1; j<= myNum;j++))
+    for((j=myNum-i+1; j<= myNum;j++))
     do
         echo -n "*"
     done
-    echo -n ''
+    echo ''
 done
 echo ' '

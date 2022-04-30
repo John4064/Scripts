@@ -12,6 +12,6 @@ read direcLoc
 
 for entry in "$direcLoc"/*
 do
-    echo "$entry"
+    echo "$entry" | cut -c3-3
 done
 echo 5

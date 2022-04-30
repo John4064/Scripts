@@ -10,6 +10,8 @@ read direcLoc
 
 #Now we search through the directory location
 
-ls direcLoc
-
+for entry in "$direcLoc"/*
+do
+    echo "$entry"
+done
 echo 5
